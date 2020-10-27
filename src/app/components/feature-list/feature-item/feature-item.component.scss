@@ -1,0 +1,17 @@
+:host{
+  .item{
+    font-size: 17px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: #f0f0f0 solid 0.5px;
+    padding-left: 10px;
+    &:hover{
+      background-color: blueviolet;
+      color: white;
+    }
+  }
+  .mark{
+    background-color: blueviolet;
+    color: white;
+  }
+}

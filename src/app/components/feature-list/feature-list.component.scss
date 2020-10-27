@@ -1,0 +1,16 @@
+:host{
+  display: flex;
+  height: 100%;
+  width: 200px;
+  .feature-list-container{
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .feature-list{
+      max-height: 100%;
+      overflow: auto;
+      border-right: #f0f0f0 solid 0.5px;
+      border-left: #f0f0f0 solid 0.5px;
+    }
+  }
+}

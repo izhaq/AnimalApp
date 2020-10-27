@@ -1,0 +1,21 @@
+<div class="app-container">
+  <app-header></app-header>
+  <div class="section-container">
+    <div class="animal-feature-list-container">
+      <app-counter [description]="counters['type']?.description" [total]="counters['type']?.total"></app-counter>
+      <app-feature-list [type]="'type'"></app-feature-list>
+    </div>
+    <div class="animal-feature-list-container">
+      <app-counter [description]="counters['color']?.description" [total]="counters['color']?.total"></app-counter>
+      <app-feature-list [type]="'color'"></app-feature-list>
+    </div>
+    <div class="animal-feature-list-container">
+      <app-counter [description]="counters['weight']?.description" [total]="counters['weight']?.total"></app-counter>
+      <app-feature-list [type]="'weight'"></app-feature-list>
+    </div>
+    <div class="animal-feature-list-container">
+      <app-counter [description]="counters['length']?.description" [total]="counters['length']?.total"></app-counter>
+      <app-feature-list [type]="'length'"></app-feature-list>
+    </div>
+  </div>
+</div>

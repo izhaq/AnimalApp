@@ -1,0 +1,7 @@
+<div class="feature-list-container">
+  <div class="feature-list">
+    <app-feature-item *ngFor="let option of listOfOptions" [feature]="option"
+                      [key]="getKey(option)"(click)="onItemClick(option)">
+    </app-feature-item>
+  </div>
+</div>
